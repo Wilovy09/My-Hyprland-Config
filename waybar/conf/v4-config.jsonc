@@ -9,7 +9,8 @@
     "modules-left": [
         "custom/power_btn",
         "custom/lock_screen",
-        "wlr/workspaces"
+        "wlr/workspaces",
+        "hyprland/window"
     ],
     "modules-center": [
         "idle_inhibitor",
@@ -35,7 +36,12 @@
         "~/.config/HyprV/waybar/conf/asus-rog.jsonc",
         "~/.config/HyprV/waybar/conf/hyprv-util.jsonc"
     ],
-
+    
+    // TEST
+    "hyprland/window": {
+        "format": "{}"
+    },
+    
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {

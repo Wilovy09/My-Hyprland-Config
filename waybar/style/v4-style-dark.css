@@ -8,49 +8,47 @@
 }
 
 window#waybar {
-    background: rgba(21, 18, 27, 0);
+    background: rgba(0, 0, 0, 0.366);
     color: #f6f7fc;
 }
 
 tooltip {
-    background: #1e1e2e;
+    background: #20004c;
     opacity: 0.8;
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: #11111b;
+    border-color: #000000;
 }
 
 tooltip label{
-    color: #cdd6f4;
+    color: #ffffff;
 }
 
 #workspaces button {
     padding: 5px;
     /* color: #f6f7fc; */
-    color: #cfe8f6;
+    color: #ffffff;
     margin-right: 5px;
 }
 
 #workspaces button.active {
-    /* color: #000000; */
-    /* background: #a6e3a1; */
     color: #ffffff;
-    background: #20004c;
+    background: linear-gradient(45deg, rgba(32,0,76,1), rgba(226,0,255,1));
     border-radius: 10px;
 }
 
 #workspaces button:hover {
-    background: #11111b;
-    color: #cdd6f4;
-    border-radius: 10px;
+    background: rgba(32,0,76,1);
+    color: #ffffff;
+    border-radius: 100px;
 }
 
 #custom-launch_wofi,
 #custom-launch_firefox,
 #custom-launch_thunderbird,
 #custom-launch_thunar,
-#custom-launch_kitty,
+/* #custom-launch_kitty, */
 #custom-lock_screen,
 #custom-light_dark,
 #custom-power_btn,
@@ -71,7 +69,7 @@ tooltip label{
 #workspaces,
 #idle_inhibitor,
 #backlight {
-    background: rgba(21, 18, 27, 0);
+    background: rgba(0, 0, 0, 0);
     opacity: 1;
     padding: 0px 8px;
     margin: 0px 3px;
@@ -97,7 +95,7 @@ tooltip label{
 #custom-launch_thunderbird,
 #custom-launch_thunar,
 #custom-launch_wofi,
-#custom-launch_kitty,
+/* #custom-launch_kitty, */
 #custom-weather {
     margin-left: 0px;
     border-right: 0px;
@@ -105,7 +103,7 @@ tooltip label{
     margin-right: 20px;
 }
 
-#custom-launch_firefox, 
-#custom-launch_kitty {
+#custom-launch_firefox{
+/* #custom-launch_kitty { */
     font-size: 20px;
 }
